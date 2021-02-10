@@ -8,13 +8,22 @@ var cacheName = 'tfjs-pwa';
   '/tf_models/group1-shard1of1.bin'
 ];*/
 
-var windowLocationHref = window.location.href;
+/*var windowLocationHref = window.location.href;
 
 var filesToCache = [
   windowLocationHref,
   windowLocationHref + 'index.html',
   windowLocationHref + 'css/style.css',
   windowLocationHref + 'js/main.js'
+];*/
+
+var currentUrl = https://contemplat0r.github.io/pwademo/;
+
+var filesToCache = [
+  currentUrl,
+  currentUrl + 'index.html',
+  currentUrl + 'css/style.css',
+  currentUrl + 'js/main.js'
 ];
 
 self.addEventListener('install', function(e) {
