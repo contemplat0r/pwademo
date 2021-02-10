@@ -17,7 +17,7 @@ var filesToCache = [
   windowLocationHref + 'js/main.js'
 ];*/
 
-var currentUrl = https://contemplat0r.github.io/pwademo/;
+var currentUrl = 'https://contemplat0r.github.io/pwademo/';
 
 var filesToCache = [
   currentUrl,
