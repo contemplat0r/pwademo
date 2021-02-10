@@ -8,11 +8,13 @@ var cacheName = 'tfjs-pwa';
   '/tf_models/group1-shard1of1.bin'
 ];*/
 
+var windowLocationHref = window.location.href;
+
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/main.js'
+  windowLocationHref,
+  windowLocationHref + 'index.html',
+  windowLocationHref + 'css/style.css',
+  windowLocationHref + 'js/main.js'
 ];
 
 self.addEventListener('install', function(e) {
